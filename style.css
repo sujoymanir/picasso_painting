@@ -57,7 +57,7 @@ a{
 }
 
 
-.dashed-box {
+.dotted-box {
     position: relative;
     z-index: 1;
     border: dotted;
@@ -67,7 +67,7 @@ a{
   }
   .blue-box {
     position: absolute;
-    z-index: 2; /* put .blue-box above .red-box and .dashed-box */
+    z-index: 2; 
     background: rgb(13, 203, 240);
     width: 100%;
     height: 14%;
@@ -87,12 +87,12 @@ a{
     border-width: 60px 20px 54px 1px; 
   }
 
-  .wrapper{
+  .container{
     background-color: rgb(143, 143, 219);
  
   }
   
-  .wrapper a {
+  .container a {
     width: 300px;
     height: 200px;
     background-color: brown;
