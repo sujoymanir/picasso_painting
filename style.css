@@ -2,7 +2,7 @@ a{
     height: 100px;
     width: 100px;
     background-color: blueviolet;
-    border-radius: 50%;
+    border-radius: 90% ;
 
 }
 
@@ -60,14 +60,14 @@ a{
 .dashed-box {
     position: relative;
     z-index: 1;
-    border: dashed;
-    height: 8em;
+    border: dotted;
+    height: 10em;
     margin-bottom: 1em;
     margin-top: 2em;
   }
   .blue-box {
     position: absolute;
-    z-index: 2; /* put .gold-box above .green-box and .dashed-box */
+    z-index: 2; /* put .blue-box above .red-box and .dashed-box */
     background: rgb(13, 203, 240);
     width: 100%;
     height: 14%;
@@ -76,12 +76,26 @@ a{
   }
   .red-box {
     position: absolute;
-    z-index: 3; /* put .green-box above .dashed-box */
+    z-index: 3; 
     background: rgb(205, 52, 24);
     width: 20%;
     left: 75%;
     top: 399px;
     height: 7em;
     opacity: 0.9;
+    border: solid;
+    border-width: 60px 20px 54px 1px; 
+  }
+
+  .wrapper{
+    background-color: rgb(143, 143, 219);
+ 
   }
   
+  .wrapper a {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 0;
+
+  }
