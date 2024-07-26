@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+
+}
+
+.square{
+    background-color: green;
+    border-radius: 0;
+    width: 100%;
+    margin: 10px;
+}
+
+.triangle-down{
+    width: 10px;
+    height: 10px;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 300px solid red;
+    margin: 20px;
+}
